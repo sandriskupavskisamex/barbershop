@@ -1,0 +1,158 @@
+.infoline {
+	background-color: black;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+.infoline ul {
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.infoline ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.infoline img {
+	width: 20px;
+	display: inline-block
+}
+
+.infoline ul li a {
+	color: white;
+}
+
+.infoline #location p, .infoline #location2 p {
+	margin-left: 4px;
+}
+
+.infoline ul li p {
+	display: inline-block;
+	margin-left: 7px;
+}
+
+#maintitle {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 40px;
+}
+
+.header {
+	border-bottom: 1px solid white;
+	background-color: black;
+}
+
+.header ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-top: 13px;
+	margin-bottom: 10px;
+}
+
+.header ul li {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 22px;
+	padding: 0 10px 0 10px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	transition: background-color 0.5s ease;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header a {
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.header ul li:hover {
+	text-decoration-style: none;
+}
+
+.header ul a:hover {
+	color: #DEB887;
+}
+
+.header ul a:focus {
+	color: #DEB887;
+}
+
+.header ul a:active {
+	color: #DEB887;
+}
+
+#location2 {
+	display: none;
+}
+
+@media only screen and (max-width: 991px) {
+	#maintitle {
+		text-align: center;
+	}
+
+	.header ul li {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	.header ul a:hover {
+		text-decoration: none;
+	}
+
+	.header ul a:focus {
+		text-decoration: none;
+	}
+
+	.header ul {
+		margin: 0 auto;
+		margin-bottom: -15px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 422px) {
+	#location {
+		display: none;
+	}
+
+	#location2 {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 433px) {
+	.header ul li {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 546px) and (max-width: 740px) {
+	.infoline .row .col-md-8 {
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+
+@media only screen and (max-width: 991px) {
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media only screen and (max-width: 502px) {
+	
+}
+
